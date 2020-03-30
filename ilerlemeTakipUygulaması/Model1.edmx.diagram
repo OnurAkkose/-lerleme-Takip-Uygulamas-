@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ee2a7703e2a048a8aed49de44ee30b82" Name="Diagram1">
+        <EntityTypeShape EntityType="ilerlemeTakipModel.kayit" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.Ağustos" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.ARALIK" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.EKİM" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.EYLÜL" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.Haziran" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.KASIM" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.Mart" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.Mayıs" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.Nisan" Width="1.5" PointX="4.75" PointY="6.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.Ocak" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.Şubat" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.tblilerleme" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="ilerlemeTakipModel.tblkayıtlar" Width="1.5" PointX="9.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

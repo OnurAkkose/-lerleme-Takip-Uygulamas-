@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ilerlemeTakipModelStoreContainer" CdmEntityContainer="ilerlemeTakipEntities">
+    <EntitySetMapping Name="kayit">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.kayit">
+        <MappingFragment StoreEntitySet="kayit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="isim" ColumnName="isim" />
+          <ScalarProperty Name="şifre" ColumnName="şifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ağustos">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.Ağustos">
+        <MappingFragment StoreEntitySet="Ağustos">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ARALIK">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.ARALIK">
+        <MappingFragment StoreEntitySet="ARALIK">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EKİM">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.EKİM">
+        <MappingFragment StoreEntitySet="EKİM">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EYLÜL">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.EYLÜL">
+        <MappingFragment StoreEntitySet="EYLÜL">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Haziran">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.Haziran">
+        <MappingFragment StoreEntitySet="Haziran">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KASIM">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.KASIM">
+        <MappingFragment StoreEntitySet="KASIM">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mart">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.Mart">
+        <MappingFragment StoreEntitySet="Mart">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mayıs">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.Mayıs">
+        <MappingFragment StoreEntitySet="Mayıs">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nisan">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.Nisan">
+        <MappingFragment StoreEntitySet="Nisan">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ocak">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.Ocak">
+        <MappingFragment StoreEntitySet="Ocak">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Şubat">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.Şubat">
+        <MappingFragment StoreEntitySet="Şubat">
+          <ScalarProperty Name="veri" ColumnName="veri" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblilerleme">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.tblilerleme">
+        <MappingFragment StoreEntitySet="tblilerleme">
+          <ScalarProperty Name="adımları" ColumnName="adımları" />
+          <ScalarProperty Name="konu" ColumnName="konu" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblkayıtlar">
+      <EntityTypeMapping TypeName="ilerlemeTakipModel.tblkayıtlar">
+        <MappingFragment StoreEntitySet="tblkayıtlar">
+          <ScalarProperty Name="kayıtlar" ColumnName="kayıtlar" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

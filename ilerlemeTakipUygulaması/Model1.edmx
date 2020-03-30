@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ilerlemeTakipModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Ağustos">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="ARALIK">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="EKİM">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="EYLÜL">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Haziran">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="KASIM">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="kayit">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="isim" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="şifre" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Mart">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Mayıs">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Nisan">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Ocak">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Şubat">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="veri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tblilerleme">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="konu" Type="varchar" MaxLength="30" />
+          <Property Name="adımları" Type="varchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="tblkayıtlar">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kayıtlar" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityContainer Name="ilerlemeTakipModelStoreContainer">
+          <EntitySet Name="Ağustos" EntityType="Self.Ağustos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ARALIK" EntityType="Self.ARALIK" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EKİM" EntityType="Self.EKİM" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EYLÜL" EntityType="Self.EYLÜL" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Haziran" EntityType="Self.Haziran" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="KASIM" EntityType="Self.KASIM" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="kayit" EntityType="Self.kayit" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mart" EntityType="Self.Mart" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mayıs" EntityType="Self.Mayıs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nisan" EntityType="Self.Nisan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Ocak" EntityType="Self.Ocak" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Şubat" EntityType="Self.Şubat" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblilerleme" EntityType="Self.tblilerleme" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tblkayıtlar" EntityType="Self.tblkayıtlar" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ilerlemeTakipModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="kayit">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="isim" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="şifre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ilerlemeTakipEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="kayit" EntityType="Self.kayit" />
+          <EntitySet Name="Ağustos" EntityType="ilerlemeTakipModel.Ağustos" />
+          <EntitySet Name="ARALIK" EntityType="ilerlemeTakipModel.ARALIK" />
+          <EntitySet Name="EKİM" EntityType="ilerlemeTakipModel.EKİM" />
+          <EntitySet Name="EYLÜL" EntityType="ilerlemeTakipModel.EYLÜL" />
+          <EntitySet Name="Haziran" EntityType="ilerlemeTakipModel.Haziran" />
+          <EntitySet Name="KASIM" EntityType="ilerlemeTakipModel.KASIM" />
+          <EntitySet Name="Mart" EntityType="ilerlemeTakipModel.Mart" />
+          <EntitySet Name="Mayıs" EntityType="ilerlemeTakipModel.Mayıs" />
+          <EntitySet Name="Nisan" EntityType="ilerlemeTakipModel.Nisan" />
+          <EntitySet Name="Ocak" EntityType="ilerlemeTakipModel.Ocak" />
+          <EntitySet Name="Şubat" EntityType="ilerlemeTakipModel.Şubat" />
+          <EntitySet Name="tblilerleme" EntityType="ilerlemeTakipModel.tblilerleme" />
+          <EntitySet Name="tblkayıtlar" EntityType="ilerlemeTakipModel.tblkayıtlar" />
+        </EntityContainer>
+        <EntityType Name="Ağustos">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ARALIK">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="EKİM">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="EYLÜL">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Haziran">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="KASIM">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Mart">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Mayıs">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Nisan">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Ocak">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Şubat">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="veri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblilerleme">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="konu" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="adımları" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblkayıtlar">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="kayıtlar" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ilerlemeTakipModelStoreContainer" CdmEntityContainer="ilerlemeTakipEntities">
+          <EntitySetMapping Name="kayit">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.kayit">
+              <MappingFragment StoreEntitySet="kayit">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="isim" ColumnName="isim" />
+                <ScalarProperty Name="şifre" ColumnName="şifre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ağustos">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.Ağustos">
+              <MappingFragment StoreEntitySet="Ağustos">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ARALIK">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.ARALIK">
+              <MappingFragment StoreEntitySet="ARALIK">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EKİM">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.EKİM">
+              <MappingFragment StoreEntitySet="EKİM">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EYLÜL">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.EYLÜL">
+              <MappingFragment StoreEntitySet="EYLÜL">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Haziran">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.Haziran">
+              <MappingFragment StoreEntitySet="Haziran">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KASIM">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.KASIM">
+              <MappingFragment StoreEntitySet="KASIM">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mart">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.Mart">
+              <MappingFragment StoreEntitySet="Mart">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mayıs">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.Mayıs">
+              <MappingFragment StoreEntitySet="Mayıs">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nisan">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.Nisan">
+              <MappingFragment StoreEntitySet="Nisan">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ocak">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.Ocak">
+              <MappingFragment StoreEntitySet="Ocak">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Şubat">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.Şubat">
+              <MappingFragment StoreEntitySet="Şubat">
+                <ScalarProperty Name="veri" ColumnName="veri" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblilerleme">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.tblilerleme">
+              <MappingFragment StoreEntitySet="tblilerleme">
+                <ScalarProperty Name="adımları" ColumnName="adımları" />
+                <ScalarProperty Name="konu" ColumnName="konu" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblkayıtlar">
+            <EntityTypeMapping TypeName="ilerlemeTakipModel.tblkayıtlar">
+              <MappingFragment StoreEntitySet="tblkayıtlar">
+                <ScalarProperty Name="kayıtlar" ColumnName="kayıtlar" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
